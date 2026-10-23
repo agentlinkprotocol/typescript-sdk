@@ -56,6 +56,6 @@ Apache-2.0.
 
 ## Branches and releases
 
-Work on `develop`, open a pull request to `main` (`ci`: lint, build, tests, pack). Merging into `main` publishes
+Work on `develop`, open a pull request to `main` (`ci` runs on the pull request only: lint, build, tests, pack). Merging into `main` publishes
 `package.json`'s version to npm with provenance (skipped if that version already exists) and tags `vX.Y.Z`.
 Bump the version in `package.json` on `develop` before merging. Requires the `NPM_TOKEN` repository secret.
